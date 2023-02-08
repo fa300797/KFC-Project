@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KFC-Careers</title>
+    <link rel="icon" type="image/x-icon" href="KFC-Logo-Red.png" class="spinner-border" role="status">
+    <style>
+       .form-control::-webkit-input-placeholder {
+        color: white;
+        }
+        #link{
+            text-decoration: none;
+            font-size: 120%;
+            color: rgb(174, 174, 174);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #link:hover{
+            text-decoration: underline;  
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-6">
+         <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="margin-left: 17%; margin-top: 2%; height: 75px;"></a>
+
+         <button onclick="showlocation(this)" class="btn btn-secondary fw-bold ms-4 mt-1" style="font-size: 80%;"><img src="Delivery.png"> DELIVERY</button>
+
+         <button onclick="hidelocation(this)" class="btn btn-success fw-bold ms-2 mt-1" style="font-size: 80%;"><img src="Pickup.png"> PICKUP</button>
+        </div>
+
+        <script>
+            function hidelocation(id) {
+              document.getElementById("btn").style.display = "none";
+            }
+            function showlocation(id) {
+              document.getElementById("btn").style.display = "block";  
+            }
+        </script>
+
+        <div class="col-lg-6 d-flex justify-content-center">
+         <div class="dropdown " style="margin-right: 20%; margin-top: 1.8%;">
+            
+            <button id="btn" class="btn dropdown-toggle fw-bold mt-3" style="background-color: gainsboro; margin-left: 50%;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-location-crosshairs"></i> &nbsp; Select Location
+            </button>
+            <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Xof1K8bebVmMzpca9">Karachi</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/nxcjpwrFEjjvqNjj6">Multan</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/ek24Ebye8WjopfQ9A">Lahore</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/2KyXH4BRVoo33M7W9">Islamabad</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Ev8jYykSzsgFxHn87">Peshawar</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/CMhFknMDa5TzAD6y8">Quetta</a></li>
+            </ul>
+        </div>
+
+        <div class="fs-2" style="margin-top: 3%; margin-right: 20%;">
+            <a href="https://www.kfcpakistan.com/bucket"><i class="fa-brands fa-bitbucket text-light"></i></a>
+        </div>
+
+        <div style="margin-top: 4%; position: relative; right: 15%;">
+        <a href="https://www.kfcpakistan.com/login"  type="button" class="btn text-light fw-bold" style="background-color: red;">Register / Sign in</a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                    <video width="1117" height="" src="https://www.kfcpakistan.com/assets/images/hr_video.mp4" controls autoplay muted loop></video>
+                    <!--<video width="1117" height="" src="hr_video.mp4" controls autoplay muted loop></video>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 pb-5" style="background-color: #120e10;">
+        <div class="row">
+            <div class="col-lg-12 text-center text-light mt-5">
+                <h2 class="fw-bold">Our Values</h2>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="value-1.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Believe in All People</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We trust each other and believe everyone can be their best self here. Our generous nature shines through everything we do.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="value-2.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Recognize</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We look for ways to recognize our people for their courage and celebrate all achievements – big and small. We never forget to have fun doing it!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="value-3.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Run Great Restaurants</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We are passionate about our food and take pride in creating a great experience for our guests. We do things the right way, even when no one is looking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="value-4.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Go for Breakthrough</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We always strive to do and be our best. We work with a sense of urgency and ownership in our brand. We take smart risks to achieve amazing results!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="value-5.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Build Know How</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We always seek to learn more and share our know how with others. Everyone can grow here.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="value-6.png">
+                    <div class="col-lg-11 text-light">
+                    <h4 class="fw-bold mt-5">Work as a Team</h4>
+                    <p style="text-align: justify; font-size: 108%;" class="mt-3">We help and support each other to grow and achieve more. We benefit from healthy debate to get the best outcomes. We win together as the KFC family!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-1">
+        <div class="row">
+            <div class="col-lg-12 text-center text-light mt-5">
+                <h2 class="fw-bold">Careers</h2>
+            </div>
+        </div>
+    </div>
+
+    <form action="/action_page.php" target="_blank" method="get">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <h5 class="fw-bold"><i class="fa-solid fa-user"></i> &nbsp;&nbsp;Personnel Info</h5>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Name *" style="height: 50px;" required>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" onfocus="(this.type='date')" placeholder="Date of Birth *" style="height: 50px;" required>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Country of Birth *" style="height: 50px;" required>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="City of Birth *" style="height: 50px;" required>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="CNIC *" style="height: 50px;" required>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" onfocus="(this.type='date')" placeholder="CNIC Expiry Date *" style="height: 50px;" required>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Marital Status *</option>
+                        <option value="1">Single</option>
+                        <option value="2">Married</option>
+                    </select>
+                    </div>
+
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Gender *</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Religion *</option>
+                        <option value="1">Muslim</option>
+                        <option value="2">Hindu</option>
+                        <option value="3">Christian</option>
+                        <option value="4">Other</option>
+                    </select>
+                    </div>
+
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Disability *</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+ 
+
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <h5 class="fw-bold"><i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;Address</h5>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="tel" placeholder="Contact Number *" style="height: 50px;" required>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Address *" style="height: 50px;" required>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Country *</option>
+                        <option value="1">Pakistan</option>
+                    </select>
+                    </div>
+
+                    <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>State/Province *</option>
+                        <option value="1">Azad Jammu and Kashmir</option>
+                        <option value="2">Balochistan</option>
+                        <option value="3">Gilgit-Baltistan</option>
+                        <option value="4">Islamabad Capital Territory</option>
+                        <option value="5">Khyber Pakhtunkhwa</option>
+                        <option value="6">Punjab</option>
+                        <option value="7">Sindh</option>
+                    </select>
+                    </div>
+                </div>
+
+                 <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="City *" style="height: 50px;" required>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-2"></div>
+     </div>
+     </div>
+
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <h5 class="fw-bold"><i class="fa-solid fa-briefcase"></i> &nbsp;&nbsp;Job Posting</h5>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+            
+            <div class="row">
+                <div class="col-lg-6">
+                 <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                    <option disabled selected hidden>How were you referred to us? *</option>
+                    <option value="1">Walk In</option>
+                    <option value="2">Linkedin</option>
+                    <option value="3">Website</option>
+                    <option value="4">Employee</option>
+                    <option value="5">Facebook</option>
+                    <option value="6">Career Fair</option>
+                    <option value="7">Other</option>
+                </select>
+                </div>
+
+                <div class="col-lg-6">
+                  <input class="form-control bg-dark border border-dark text-light fw-bold" type="tel" placeholder="City Applying For *" style="height: 50px;" required>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                 <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                    <option disabled selected hidden>Position You are Applying For *</option>
+                    <option value="1">Next Gen Leadership Program</option>
+                    <option value="2">Area Coach</option>
+                    <option value="3">Restaurant General Manager</option>
+                    <option value="4">Shift Manager</option>
+                    <option value="5">Custom Relation Officer</option>
+                    <option value="6">Team Member</option>
+                    <option value="7">Delivery Rider</option>
+                    <option value="8">Corporate</option>
+                </select>
+                </div>
+
+                <div class="col-lg-6">
+                    <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Type of Shift (Only for instore) *</option>
+                        <option value="1">Morning</option>
+                        <option value="2">Night</option>
+                        <option value="3">Both</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                 <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                    <option disabled selected hidden>Type of Employement (Only for instore) *</option>
+                    <option value="1">Full Time</option>
+                    <option value="2">Part Time</option>
+                </select>
+                </div>
+            </div>
+            
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+     </div>
+
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <h5 class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> &nbsp;&nbsp;Qualification</h5>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+            
+                <div class="row">
+                    <div class="col-lg-6">
+                     <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                        <option disabled selected hidden>Degree *</option>
+                        <option value="1">Masters</option>
+                        <option value="2">Bachelors</option>
+                        <option value="3">Intermediate</option>
+                        <option value="4">Matriculation</option>
+                    </select>
+                    </div>
+    
+                    <div class="col-lg-6">
+                      <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Majors *" style="height: 50px;" required>
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                    <input class="form-control bg-dark border border-dark text-light fw-bold" onfocus="(this.type='date')" placeholder="Qualification Year *" style="height: 50px;" required>
+                    </div>
+    
+                    <div class="col-lg-6">
+                      <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Place of Tution *" style="height: 50px;" required>
+                    </div>
+                </div> 
+            
+            </div>
+
+            <div class="col-lg-2"></div>
+     </div>
+     </div>
+
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <h5 class="fw-bold"><i class="fa-sharp fa-solid fa-star"></i> &nbsp;&nbsp;Experience</h5>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+                
+                    <div class="row">
+                        <div class="col-lg-6">
+                         <select class="form-select bg-dark border border-dark text-light fw-bold" aria-label="Default select example" style="height: 50px;" required>
+                            <option disabled selected hidden>Total Years of Experience *</option>
+                            <option value="1">Fresh</option>
+                            <option value="2">Less than 1 year</option>
+                            <option value="3">1 year</option>
+                            <option value="4">Other</option>
+                        </select>
+                        </div>
+        
+                        <div class="col-lg-6">
+                          <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Recent Position *" style="height: 50px;" required>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                          <input class="form-control bg-dark border border-dark text-light fw-bold" type="text" placeholder="Recent Company *" style="height: 50px;" required>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+     </div>
+
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light text-center">
+                <h2 class="fw-bold">Applicant agreement</h2>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8 text-light">
+                <p class="fw-bold" style="text-align: justify;">I certify that all information provided in this application is true and complete. I understand that any false information or omission may disqualify me from further consideration for employment and may result in my dismissal If discovered at a later date. I authorize and agree to cooperate in a thorough investigation of all statements made herein and other matters relating to my background and qualification. I understand that any investigation conducted may include a request for employment, educational and criminal history. I authorize any person, school, current and former employer, consumer reporting agency and any other organization or agency to provide information relevant to such investigation and I hereby release all persons and corporations requesting or supplying information pursuant to such investigation from all liability or responsibility to me for doing so. I understand that I have the right to make a written request within a reasonable period of time for complete disclosure of the nature and scope of any investigation. I further authorize any physician or hospital to release any information which may be necessary to determine my ability to perform the job for which I am being considered or any future job in the event that I am hired. I UNDERSTAND THAT THIS APPLICATION OR SUBSEQUENT EMPLOYMENT DOES NOT CREATE A CONTRACT OF EMPLOYMENT NOR GUARANTEE EMPLOYMENT FOR ANY DEFINITE PERIOD OF TIME.</p>
+                <div class="form-check mt-3" style="font-size: 110%;">
+                    <input class="form-check-input bg-dark border-danger" type="checkbox" value="" id="flexCheckDefault">&nbsp;
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I agree with the terms and conditions.
+                    </label>
+                </div>
+                <div class="text-center mt-5">
+                <button type="button" class="btn fw-bold" style="background-color: red; color: white; width: 270px;height: 60%;">Apply</button>
+                </div>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+     </div>
+    </form>
+
+    <div class="container-fluid" style="background-color: #1C1816; margin-top: 7%;">
+        <div class="row pt-5">
+        <div class="col-lg-6 text-end">
+        <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="height: 90px;"></a>
+        <span class="text-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</span>
+        </div>
+        <div class="col-lg-6">
+        <div class="row text-light">
+            <h5>&nbsp;&nbsp;Find us on</h5>
+        </div>
+        <a href="https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg"><img src="SocialMedia.PNG"></a>
+        </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-lg-3">
+                 <h5 class="text-light">Information</h5>
+                 <a href="./kfc-aboutus.html" id="link">About Us</a><br>
+                 <a href="./kfc-mitaobhook.html" id="link">Mitao Bhook</a><br>
+                 <a href="./KFC-Privacy Policy.html" id="link">Privacy Policy</a><br>
+                 <a href="./kfc-careers.html" id="link">Careers</a>
+                </div> 
+
+                <div class="col-lg-3">
+                 <h5 class="text-light">Locations</h5>
+                 <a href="./kfc-contactus.html" id="link">Contact Us</a><br>   
+                </div>
+
+                <div class="col-lg-3">
+                <h5 class="text-light">Get in Touch</h5>
+                <a href="./kfc-terms&condition.html" id="link">Terms & Conditions</a><br>   
+                </div>
+
+                <div class="col-lg-3">
+                <a href="https://apps.apple.com/us/app/kfc-pakistan/id1480491422"><img src="app-store.png"></a><br><br>
+                <a href="https://play.google.com/store/apps/details?id=io.bramerz.kfc&hl=en&gl=US&pli=1"><img src="google-store.png"></a>  
+                </div>
+             </div>
+        </div>
+        <br><br><br> 
+    </div>
+</body>
+</html>

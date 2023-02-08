@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KFC-About Us</title>
+    <link rel="icon" type="image/x-icon" href="KFC-Logo-Red.png"
+    class="spinner-border" role="status">
+    <style>
+        #link{
+            text-decoration: none;
+            font-size: 120%;
+            color: rgb(174, 174, 174);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #link:hover{
+            text-decoration: underline;  
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-6">
+         <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="margin-left: 17%; margin-top: 2%; height: 75px;"></a>
+
+         <button onclick="showlocation(this)" class="btn btn-secondary fw-bold ms-4 mt-1" style="font-size: 80%;"><img src="Delivery.png"> DELIVERY</button>
+
+         <button onclick="hidelocation(this)" class="btn btn-success fw-bold ms-2 mt-1" style="font-size: 80%;"><img src="Pickup.png"> PICKUP</button>
+        </div>
+
+        <script>
+            function hidelocation(id) {
+              document.getElementById("btn").style.display = "none";
+            }
+            function showlocation(id) {
+              document.getElementById("btn").style.display = "block";  
+            }
+        </script>
+
+        <div class="col-lg-6 d-flex justify-content-center">
+         <div class="dropdown " style="margin-right: 20%; margin-top: 1.8%;">
+            
+            <button id="btn" class="btn dropdown-toggle fw-bold mt-3" style="background-color: gainsboro; margin-left: 50%;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-location-crosshairs"></i> &nbsp; Select Location
+            </button>
+            <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Xof1K8bebVmMzpca9">Karachi</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/nxcjpwrFEjjvqNjj6">Multan</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/ek24Ebye8WjopfQ9A">Lahore</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/2KyXH4BRVoo33M7W9">Islamabad</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Ev8jYykSzsgFxHn87">Peshawar</a></li>
+                <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/CMhFknMDa5TzAD6y8">Quetta</a></li>
+            </ul>
+        </div>
+
+        <div class="fs-2" style="margin-top: 3%; margin-right: 20%;">
+            <a href="https://www.kfcpakistan.com/bucket"><i class="fa-brands fa-bitbucket text-light"></i></a>
+        </div>
+
+        <div style="margin-top: 4%; position: relative; right: 15%;">
+        <a href="https://www.kfcpakistan.com/login"  type="button" class="btn text-light fw-bold" style="background-color: red;">Register / Sign in</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-lg-12 text-center text-light">
+                    <h2 class="fw-bold">About us</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 rounded" style="background-color: #1C1816; border: 1px solid #1C1816;">
+            <div class="row mt-4 me-3 ms-2 mb-4">
+                <div class="col-lg-6 text-light">
+                <p style="text-align: justify; font-size: 15px; font-weight: 500;">KFC entered Pakistan in 1997 and since then, it’s been a journey full of excitement and Finger Lickin’ goodness! The first KFC restaurant opened in Pakistan opened in Gulshan Iqbal, Karachi and now our Finger Lickin’ Chicken is available in 32+ cities with over 110 restaurants! Being the most loved fast food chain in Pakistan, KFC leaves no stone unturned to provide its customers the most delicious chicken and an excellent dining experience.</p>    
+                </div>
+                
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-5">
+                <div class="row text-light text-center py-5 rounded" style="background-color: rgb(252, 4, 62);">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10 mt-3 mb-2">
+                    <h5 class="fw-bold" style="font-size: 108%;">WE PRIDE OURSELVES ON USING QUALITY HALAL CHICKEN AND LOCAL INGREDIENTS FROM TRUSTED SUPPLIER</h5>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 rounded" style="background-color: #1C1816; border: 1px solid #1C1816;">
+            <div class="row mt-4 me-3 ms-2 mb-4">
+                <div class="col-lg-4">
+                 <img src="kfcbaba.png">
+                </div>
+
+                <div class="col-lg-8 text-light mt-5">
+                <h4 class="fw-bold mt-3">History</h4>
+                <p style="text-align: justify; font-size: 15px; font-weight: 500;" class="mt-4">It all started with Colonel Harland Sanders, the man who convinced the world by saying “We do chicken right!” Sanders took a great deal of time perfecting his iconic secret recipe of 11 herbs and spices, a legacy he’s brought to the world through KFC’s 10,000 restaurants. Starting from outside of his gas station in Korbin, Kentucky to being a globally recognized face, we owe our success to the Colonel’s hard work and passion for sharing his love for chicken with the world!</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-lg-12 text-center text-light mt-4">
+                    <h2 class="fw-bold">The Story of World’s Best Chicken</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-4 mb-5">
+            <div class="row">
+                <div class="col-lg-12 text-center mt-3 mb-3">
+                    <img src="Story of World's Best Chicken.PNG">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pb-5" style="background-color: rgb(14, 13, 13);">
+            <div class="row">
+                <div class="col-lg-12 text-center text-light mt-5">
+                    <h2 class="fw-bold mt-3">Fast Facts about KFC Pakistan</h2>
+                </div>
+            </div>
+
+            <div class="container mt-5 pb-4">
+            <div class="row">
+               <div class="col-lg-2">
+                <img src="Card-1.PNG" class="rounded">
+               </div>
+               
+               <div class="col-lg-1"></div>
+
+               <div class="col-lg-2">
+                <img src="Card-2.PNG" class="rounded">
+               </div> 
+
+               <div class="col-lg-1"></div>
+
+               <div class="col-lg-2">
+                <img src="Card-3.PNG" class="rounded">
+               </div> 
+
+               <div class="col-lg-1"></div>
+
+               <div class="col-lg-2">
+                <img src="Card-4.PNG" class="rounded">
+               </div> 
+            </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 pb-4 rounded" style="background-color: #1C1816;">
+            <div class="row">
+            <div class="col-lg-4"></div>
+
+            <div class="col-lg-4">
+                <img src="KFC-Mitaobhooklogo.PNG" class="mt-5">
+            </div>
+
+            <div class="col-lg-4"></div>
+            </div>
+
+            <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-10 text-light text-center">
+                <p style="font-size: 15px; font-weight: 500;" class="mt-3">is KFC’s pledge to give back to society. Over the years we have made it our mission to spread the message of hope, bringing positive change in the lives of people and providing better living standards. Mitao Bhook strengthens the community on the pillars of Education, Inclusion & Diversity.</p>    
+            </div>
+
+            <div class="col-lg-1"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-5 rounded" style="background-color: #1C1816;" >
+                <div class="row mt-4">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">      
+                <img src="TheCitizensFoundations.PNG">
+                </div>
+                <div class="col-lg-2"></div>
+                </div>
+                
+                <div class="row pb-3">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-center text-light">
+                <p style="font-size: 15px; font-weight: 500;" class="mt-3">Adopted 4 TCF schools since 2014 in Gadaap West, Muzaffargarh, Faisalabad, and Quetta, educating 800+ students</p>    
+                </div>
+                <div class="col-lg-1"></div>    
+                </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-5 rounded" style="background-color: #1C1816;">
+                <div class="row mt-4">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">       
+                <img src="DeafReach.PNG">
+                </div>
+                <div class="col-lg-2"></div> 
+                </div>
+
+                <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-center text-light">
+                <p style="font-size: 15px; font-weight: 500;" class="mt-4">Proudly running the Deaf Reach KFC Campus and providing education and training to 200 deaf students</p>    
+                </div>
+                <div class="col-lg-1"></div>    
+                </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-5 rounded" style="background-color: #1C1816;" >
+                <div class="row mt-4">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">      
+                <img src="OrangeTreeFoundation.PNG">
+                </div>
+                <div class="col-lg-2"></div>
+                </div>
+                
+                <div class="row pb-3">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-center text-light">
+                <p style="font-size: 15px; font-weight: 500;" class="mt-3">Sponsoring higher education of 120+ students across HEC recognized universities in Pakistan</p>    
+                </div>
+                <div class="col-lg-1"></div>    
+                </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-5 rounded" style="background-color: #1C1816;">
+                <div class="row mt-4">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">       
+                <img src="YTE.PNG">
+                </div>
+                <div class="col-lg-2"></div> 
+                </div>
+
+                <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-center text-light">
+                <p style="font-size: 15px; font-weight: 500;" class="mt-4">Supporting TEGS – KFC Campus to provide quality education to students in Lahore</p>    
+                </div>
+                <div class="col-lg-1"></div>    
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background-color: #1C1816; margin-top: 7%;">
+            <div class="row pt-5">
+            <div class="col-lg-6 text-end">
+            <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="height: 90px;"></a>
+            <span class="text-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</span>
+            </div>
+            <div class="col-lg-6">
+            <div class="row text-light">
+                <h5>&nbsp;&nbsp;Find us on</h5>
+            </div>
+            <a href="https://www.instagram.com/kfcpakistanofficial/?hl=en"><img src="SocialMedia.PNG"></a>
+            </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                     <h5 class="text-light">Information</h5>
+                     <a href="./kfc-aboutus.html" id="link">About Us</a><br>
+                     <a href="./kfc-mitaobhook.html" id="link">Mitao Bhook</a><br>
+                     <a href="./KFC-Privacy Policy.html" id="link">Privacy Policy</a><br>
+                     <a href="./kfc-careers.html" id="link">Careers</a>
+                    </div> 
+
+                    <div class="col-lg-3">
+                     <h5 class="text-light">Locations</h5>
+                     <a href="./kfc-contactus.html" id="link">Contact Us</a><br>   
+                    </div>
+
+                    <div class="col-lg-3">
+                    <h5 class="text-light">Get in Touch</h5>
+                    <a href="./kfc-terms&condition.html" id="link">Terms & Conditions</a><br>   
+                    </div>
+
+                    <div class="col-lg-3">
+                    <a href="https://apps.apple.com/us/app/kfc-pakistan/id1480491422"><img src="app-store.png"></a><br><br>
+                    <a href="https://play.google.com/store/apps/details?id=io.bramerz.kfc&hl=en&gl=US&pli=1"><img src="google-store.png"></a>  
+                    </div>
+                 </div>
+            </div>
+            <br><br><br> 
+        </div>
+</body>
+</html>

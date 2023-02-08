@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KFC</title>
+    <link rel="icon" type="image/x-icon" href="KFC-Logo-Red.png" class="spinner-border" role="status">
+    <style>
+        #link{
+            text-decoration: none;
+            font-size: 120%;
+            color: rgb(174, 174, 174);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #link:hover{
+            text-decoration: underline;  
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-6">
+         <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="margin-left: 17%; margin-top: 2%; height: 75px;"></a>
+
+         <button onclick="showlocation(this)" class="btn btn-secondary fw-bold ms-4 mt-1" style="font-size: 80%;"><img src="Delivery.png"> DELIVERY</button>
+
+         <button onclick="hidelocation(this)" class="btn btn-success fw-bold ms-2 mt-1" style="font-size: 80%;"><img src="Pickup.png"> PICKUP</button>
+        </div>
+
+        <script>
+            function hidelocation(id) {
+              document.getElementById("btn").style.display = "none";
+            }
+            function showlocation(id) {
+              document.getElementById("btn").style.display = "block";  
+            }
+        </script>
+
+        <div class="col-lg-6 d-flex justify-content-center">
+         <div class="dropdown " style="margin-right: 20%; margin-top: 1.8%;">
+            
+            <button id="btn" class="btn dropdown-toggle fw-bold mt-3" style="background-color: gainsboro; margin-left: 50%;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-location-crosshairs"></i> &nbsp; Select Location
+            </button>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Xof1K8bebVmMzpca9">Karachi</a></li>
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/nxcjpwrFEjjvqNjj6">Multan</a></li>
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/ek24Ebye8WjopfQ9A">Lahore</a></li>
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/2KyXH4BRVoo33M7W9">Islamabad</a></li>
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/Ev8jYykSzsgFxHn87">Peshawar</a></li>
+              <li><a class="dropdown-item text-light fw-bold" href="https://goo.gl/maps/CMhFknMDa5TzAD6y8">Quetta</a></li>
+            </ul>
+        </div>
+
+        <div class="fs-2" style="margin-top: 3%; margin-right: 20%;">
+            <a href="https://www.kfcpakistan.com/bucket"><i class="fa-brands fa-bitbucket text-light"></i></a>
+        </div>
+
+        <div style="margin-top: 4%; position: relative; right: 15%;">
+        <a href="https://www.kfcpakistan.com/login"  type="button" class="btn text-light fw-bold" style="background-color: red;">Register / Sign in</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    <div class="container mt-4">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://www.kfcpakistan.com/product/value-bucket"><img src="KFC Slider-1.PNG" class="d-block w-100" alt="Burgers"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.kfcpakistan.com/product/krunch-burger-+-drink"><img src="KFC Slider-2.PNG" class="d-block w-100" alt="Burgers"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.kfcpakistan.com/product/pepsi-regular"><img src="KFC Slider-3.PNG" class="d-block w-100" alt="Pepsi"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.kfcpakistan.com/product/mighty-zinger-combo"><img src="KFC Slider-4.PNG" class="d-block w-100" alt="Maize"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.kfcpakistan.com/product/krunch-burger"><img src="KFC Slider-5.PNG" class="d-block w-100" alt="Chicken"></a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container mt-5">
+    <div class="row">
+    <div class="col-lg-3">
+    <span class="h4 text-light">Browse Categories</span>
+    </div>
+    <div class="col-lg-9">
+        <span class="border-bottom border-2 border-secondary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+    </div>
+    </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row ms-3">
+            <div class="col-lg-12 mt-3">
+                <a href="https://www.kfcpakistan.com/category#everyday-value"><img src="Everyday Value.png"></a>
+                <a href="https://www.kfcpakistan.com/category#ala-carte-&-combos"><img src="Ala Carte & Combos.png"></a>
+                <a href="https://www.kfcpakistan.com/category#signature-boxes"><img src="Signature Boxes.png"></a>
+                <a href="https://www.kfcpakistan.com/category#sharing"><img src="Sharing.png"></a>
+                <a href="https://www.kfcpakistan.com/category#snacks-&-beverages"><img src="Snacks & Beverages.png"></a>
+                <a href="https://www.kfcpakistan.com/category#midnight"><img src="Midnight.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+        <div class="col-lg-3">
+        <span class="h4 text-light">Top Selling</span>
+        </div>
+        <div class="col-lg-9">
+            <span class="border-bottom border-2 border-secondary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+        </div>
+        </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card p-3" style="width: 17rem; background-color: #1C1816; cursor: pointer;">
+                        <a href="https://www.kfcpakistan.com/product/krunch-burger"><img src="Krunch Burger.png" class="card-img-top" alt="Krunch Burger"></a>
+                        <div class="card-body text-light">
+                          <h5 class="card-title fw-bold">Krunch Burger</h5>
+                          <p class="card-text" style="color: rgb(174, 174, 174);">Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun</p>
+                          <div class="row mt-5">
+                          <div class="col-lg-6 "> 
+                          <span class="fs-4 fw-bold">Rs 220</span>
+                          </div>   
+                          <div class="col-lg-6 "> 
+                          <a href="https://www.kfcpakistan.com/product/krunch-burger" class="btn btn-danger fw-bold" style="font-size: 72%; width: 113%;">Add to bucket</a>
+                          </div> 
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card p-3" style="width: 17rem; background-color: #1C1816; cursor: pointer;">
+                        <a href="https://www.kfcpakistan.com/category#midnight"><img src="Midnight Deal 3.png" class="card-img-top" alt="Midnight Deal 3"></a>
+                        <div class="card-body text-light">
+                          <h5 class="card-title fw-bold">Midnight Deal 3</h5>
+                          <p class="card-text" style="color: rgb(174, 174, 174);">Mighty Zinger + regular drink</p>
+                          <div class="row" style="margin-top: 34.7%;">
+                          <div class="col-lg-6"> 
+                          <span class="fs-4 fw-bold">Rs 590</span>
+                          </div>   
+                          <div class="col-lg-6"> 
+                          <a href="https://www.kfcpakistan.com/category#midnight" class="btn btn-danger fw-bold" style="font-size: 72%; width: 113%;">Add to bucket</a>
+                          </div> 
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card p-3" style="width: 17rem; background-color: #1C1816; cursor: pointer;">
+                        <a href="https://www.kfcpakistan.com/product/rice-n-spice"><img src="Rice N Spice.png" class="card-img-top" alt="Rice N Spice"></a>
+                        <div class="card-body text-light">
+                          <h5 class="card-title fw-bold">Rice N Spice</h5>
+                          <p class="card-text" style="color: rgb(174, 174, 174);">Spiced, buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce</p>
+                          <div class="row mt-4">
+                          <div class="col-lg-6"> 
+                          <span class="fs-4 fw-bold">Rs 290</span>
+                          </div>   
+                          <div class="col-lg-6"> 
+                          <a href="https://www.kfcpakistan.com/product/rice-n-spice" class="btn btn-danger fw-bold" style="font-size: 72%; width: 113%;">Add to bucket</a>
+                          </div> 
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card p-3" style="width: 17rem; background-color: #1C1816; cursor: pointer;">
+                        <a href="https://www.kfcpakistan.com/product/cheese"><img src="Cheese-image.png" class="card-img-top" alt="Cheese"></a>
+                        <div class="card-body text-light">
+                          <h5 class="card-title fw-bold">Cheese</h5>
+                          <p class="card-text" style="color: rgb(174, 174, 174);">Cheese</p>
+                          <div class="row mt-5">
+                          <div class="col-lg-6 mt-5"> 
+                          <span class="fs-4 fw-bold">Rs 460</span>
+                          </div>   
+                          <div class="col-lg-6 mt-5"> 
+                          <a href="https://www.kfcpakistan.com/product/cheese" class="btn btn-danger fw-bold" style="font-size: 72%; width: 113%;">Add to bucket</a>
+                          </div> 
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background-color: #1C1816; margin-top: 10%;">
+            <div class="row pt-5">
+            <div class="col-lg-6 text-end">
+            <a href="./kfc.html"><img src="KFC-Logo-Red.png" style="height: 90px;"></a>
+            <span class="text-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</span>
+            </div>
+            <div class="col-lg-6">
+            <div class="row text-light">
+                <h5>&nbsp;&nbsp;Find us on</h5>
+            </div>
+            <a href="https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg"><img src="SocialMedia.PNG"></a>
+            </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                     <h5 class="text-light">Information</h5>
+                     <a href="./kfc-aboutus.html" id="link">About Us</a><br>
+                     <a href="./kfc-mitaobhook.html" id="link">Mitao Bhook</a><br>
+                     <a href="./KFC-Privacy Policy.html" id="link">Privacy Policy</a><br>
+                     <a href="./kfc-careers.html" id="link">Careers</a>
+                    </div> 
+
+                    <div class="col-lg-3">
+                     <h5 class="text-light">Locations</h5>
+                     <a href="./kfc-contactus.html" id="link">Contact Us</a><br>   
+                    </div>
+
+                    <div class="col-lg-3">
+                    <h5 class="text-light">Get in Touch</h5>
+                    <a href="./kfc-terms&condition.html" id="link">Terms & Conditions</a><br>   
+                    </div>
+
+                    <div class="col-lg-3">
+                    <a href="https://apps.apple.com/us/app/kfc-pakistan/id1480491422"><img src="app-store.png"></a><br><br>
+                    <a href="https://play.google.com/store/apps/details?id=io.bramerz.kfc&hl=en&gl=US&pli=1"><img src="google-store.png"></a>  
+                    </div>
+                 </div>
+            </div>
+            <br><br><br> 
+        </div>
+        
+</body>
+</html>
